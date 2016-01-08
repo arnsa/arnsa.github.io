@@ -1,0 +1,119 @@
+/********************
+    =GENERAL
+********************/
+
+body {
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+    background-color: #232323;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul li button, h1 {
+    text-transform: uppercase;
+}
+
+/********************
+    =HEADER
+********************/
+
+header {
+    background-color: #4482B6;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 1em;
+    text-align: center;
+    font-weight: normal;
+}
+
+#colorDisplay {
+    font-size: 2em;
+}
+
+#colorDisplay::after,
+#colorDisplay:before {
+    content: '\A';
+    white-space: pre-wrap;
+}
+
+/********************
+    =NAVIGATION
+*********************/
+
+#message {
+    color: #000;
+}
+
+nav {
+    background: #fff;
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    white-space: nowrap;
+    text-align: center;
+}
+
+nav > ul li {
+    display: inline-block;
+}
+
+nav > ul li button {
+    padding: 0.5em 0.5em;
+}
+
+nav li:not(#message):hover {
+    background-color: #4482B6;
+}
+
+nav li:hover button {
+    color: #fff;
+}
+
+nav li button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: 0;
+    color: #4482B6;
+    font-weight: 700;
+    font-size: inherit;
+    letter-spacing: 1px;
+}
+
+.left {
+    margin-right: 7em;
+}
+
+.selected {
+    background-color: #4482B6;
+    color: #fff;
+}
+
+/********************
+    =CONTAINER
+*********************/
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 10%;
+    display: inline-block;
+    font-size: 1rem;
+}
