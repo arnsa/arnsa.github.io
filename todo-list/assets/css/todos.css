@@ -96,3 +96,11 @@ input[type="checkbox"] {
     color: gray;
     text-decoration: line-through;
 }
+
+.done::after {
+    display: inline-block;
+    padding-left: 10px;
+    color: #33ff41;
+    font-family: FontAwesome;
+    content: '\f00c';
+}
